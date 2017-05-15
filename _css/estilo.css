@@ -1,0 +1,203 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Pangolin');
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #89f1ff;
+	color: rgba(0,0,0,.8);
+}
+
+header#cabecalho {
+	height: 450px;
+}
+
+img#fundo-header {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+img#ronaldinho-header {
+	position: absolute;
+	left: 200px;
+	top: 22px;
+}
+img#logo-transparente {
+	position: absolute;
+	width: 60%;
+	left: 480px;
+	top: 50px;
+}
+
+img#logo-transparente:hover {
+    transform: perspective(20px) translateZ(3px) rotate(-10grad);
+    webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+img#ronaldinho-header:hover {
+    transform: perspective(20px) translateZ(3px) rotate(-10grad);
+    webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+a {
+	color: #606060;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.interface-post {
+    position: relative;
+    left: 430px;
+    top: 68px;
+	width: 850px;
+	height: auto;
+    margin-bottom: 30px;
+	background-color: #ffffff;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+}
+
+.novo-post {
+    top: 0px;
+	position: relative;
+    font-family: "Pangolin", sans-serif;
+
+}
+
+.post-header {
+    top: 0px;
+    margin-bottom: 5px;
+}
+
+.day-post {
+    font-weight: 700;
+    display: inline-block;
+    text-align: center;
+    font-size: 16pt;
+    padding: 25px 30px 25px 33px;
+    margin-bottom: 5px;
+    box-shadow: 0px 0px 2px black;
+    color: #ffffff;
+    background-color: #0d7eff ;
+}
+
+.day-post span {
+    font-size: 30pt;
+    color: #ffffff;
+}
+
+.legenda-post {
+    font-family: "Comic Sans MS", sans-serif;
+    display: inline-block;
+    position: absolute;
+    background-color: #0d7eff;
+    box-shadow: 0px 0px 2px black;
+    left: 105px;
+    width: 725px;
+    padding: 0px 10px 20px 10px;
+    height: 84px;
+}
+
+.legenda-post h2 {
+    vertical-align: top;
+    font-size: 25pt;
+    color: #ffffff;
+}
+
+.alinhar-centro {
+    position: relative;
+    display: block;
+    margin: auto;
+}
+
+div#like-box {
+	position: absolute;
+	top: 526px;
+    left: 40px;
+	width: 350px;
+}
+
+.fb-like {
+    position: relative;
+    top: 30px;
+    bottom: 0px;
+}
+
+nav#menu {
+	display: inline;
+}
+
+nav#menu ul {
+   list-style: none;
+   position: absolute;
+   top: 350px;
+   left: 80px;
+}
+
+nav#menu li {
+	display: inline-block;
+	font-family: 'Pangolin', cursive;
+    text-align: center;
+    font-size: 15pt;
+    width: 250px;
+    margin: 0px 8px 0px 8px;
+}
+
+nav#menu  a {
+	text-align: center;
+	color: #006eb4;
+	width: 250px;
+	float: left;
+    padding: 10px;
+}
+
+nav#menu li :hover {
+	text-decoration: none;
+	background-color: rgba(22,173,194,.5);
+}
+
+nav#menu a: hover {
+	text-decoration: none;
+	font-color: #606060;
+	background-color: #ffffff;
+}
+
+.post-comment {
+    margin: 10px;
+}
+
+.post-comment p {
+    text-align: center;
+    font-size: 15pt;
+}
+
+.post-footer {
+    display: table;
+    width: 800px;
+    text-align: left;
+    margin: 10px;
+    padding: 10px 20px;
+    height: 60px;
+    border-top: 1px solid #E6E6E6;
+}
+
+footer#rodape {
+    margin-top: 150px;
+	height: 70px;
+    clear: both;
+	border-top: 1px solid #606060;
+}
+
+footer#rodape p {
+	text-align: center;
+}
