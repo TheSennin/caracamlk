@@ -4,7 +4,7 @@ include($_SERVER['DOCUMENT_ROOT']."/caracamlk/includes/index-header.php");
 include($_SERVER['DOCUMENT_ROOT']."/caracamlk/includes/index-body.php");
 ?>
 <?php
-$sql = "SELECT * from td_postagens WHERE id='100'";
+$sql = "SELECT * from td_postagens WHERE id='2'";
 try {
 $resultado = $conexao->prepare($sql);
 $resultado -> execute();
