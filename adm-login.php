@@ -187,12 +187,12 @@ if (\$contar > 0) {
 
             <fieldset>
                 <legend><label for="mes">Mês:</label></legend>
-                <input type="text" id="mes" name="mes" maxlength="3" placeholder="Ex.: 10"/>
+                <input type="text" id="mes" name="mes" maxlength="3" placeholder="Ex.: Jan"/>
             </fieldset>
 
             <fieldset>
                 <legend><label for="dia">Dia: </label></legend>
-                <input type="text" id="dia" name="dia" maxlength="2" placeholder="Ex.: Jan"/>
+                <input type="text" id="dia" name="dia" maxlength="2" placeholder="Ex.: 10"/>
             </fieldset>
 
             <fieldset>
